@@ -50,3 +50,5 @@ Handle the following custom conversion specifier:
 Handle the following custom conversion specifier:
 
 15. * All the above options work well together.
+
+All these are the tasks for the printf project, solved by teams of 2 people at ALX.
