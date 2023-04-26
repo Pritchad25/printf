@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*******************WRITE HANDLE*************/
+/*******************WRITE HANDLERS*******************/
 /**
  * handle_write_char - this function prints a string
  * @width: get width.
@@ -9,6 +9,7 @@
  * @c: char types.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags.
+ *
  *
  * Return: Number of chars printed.
  */
@@ -216,6 +217,7 @@ int write_unsgnd(int is_negative, int ind, char buffer[], int flags, int width,
  * @padd: Char representing the padding
  * @extra_c: Char representing extra char
  * @padd_start: Index at which padding should start
+ *
  *
  * Return: Number of written chars.
  */
