@@ -118,7 +118,7 @@ int print_string(va_list types, char buffer[], int flags,
 	return (write(1, str, len));
 }
 
-/********************PRINTS A CHAR**********/
+/********************PRINTS A CHAR************************/
 /**
  * prints_char - this function prints a char(character).
  * @width: the width
@@ -127,6 +127,8 @@ int print_string(va_list types, char buffer[], int flags,
  * @types: this is a list of arguments
  * @buffer: the buffer array to handle print
  * @flags: calculate active flags
+ *
+ *
  * Return: number of chars printed
  */
 int print_char(va_list types, char buffer[], int flags,
@@ -137,7 +139,7 @@ int print_char(va_list types, char buffer[], int flags,
 	return (handle_write_char(c, buffer, flags, width, precision, size));
 }
 
-/*************PRINT A BINARY ***********/
+/*************PRINT A BINARY ***********************/
 /**
  * print_binary - this function prints an unsigned number
  * @width: get the width
@@ -146,6 +148,8 @@ int print_char(va_list types, char buffer[], int flags,
  * @types: a list of arguments
  * @buffer: the buffer array to handle print
  * @flags: calculates active flags
+ *
+ *
  * Return: the number of char printed
  */
 int print_binary(va_list types, char buffer[], int flags,
